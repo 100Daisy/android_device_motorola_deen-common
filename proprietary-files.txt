@@ -31,6 +31,22 @@ vendor/lib64/libaudioalsa.so
 vendor/lib64/libaudioparsers.so
 vendor/lib64/libqtigef.so
 
+# Audio ACDB
+vendor/etc/acdbdata/brazil/Speaker_cal.acdb
+vendor/etc/acdbdata/brazil/General_cal.acdb
+vendor/etc/acdbdata/brazil/Handset_cal.acdb
+vendor/etc/acdbdata/brazil/Headset_cal.acdb
+vendor/etc/acdbdata/brazil/Bluetooth_cal.acdb
+vendor/etc/acdbdata/brazil/Global_cal.acdb
+vendor/etc/acdbdata/brazil/Hdmi_cal.acdb
+vendor/etc/acdbdata/common/Speaker_cal.acdb
+vendor/etc/acdbdata/common/General_cal.acdb
+vendor/etc/acdbdata/common/Handset_cal.acdb
+vendor/etc/acdbdata/common/Headset_cal.acdb
+vendor/etc/acdbdata/common/Bluetooth_cal.acdb
+vendor/etc/acdbdata/common/Global_cal.acdb
+vendor/etc/acdbdata/common/Hdmi_cal.acdb
+
 # Bluetooth
 lib/libbtconfigstore.so
 lib64/libbtconfigstore.so
@@ -394,6 +410,14 @@ vendor/lib64/vendor.qti.hardware.factory@1.1.so
 vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so
 vendor/lib64/vendor.qti.latency@2.0.so
 
+# Display calib
+vendor/etc/qdcm_calib_data_mipi_mot_vid_nova_hd_586.xml
+vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_720p_586.xml
+
+# Display Panel Firmwares
+vendor/firmware/focaltech-tianma-ft8006u-07-0001-deen.bin
+vendor/firmware/novatek_ts-nova-NT36525-180817-0d-deen.bin
+
 # DRM - HDCP
 vendor/lib/libmm-hdcpmgr.so
 vendor/lib64/libmm-hdcpmgr.so
@@ -475,6 +499,14 @@ vendor/lib64/libscvePanorama.so
 vendor/lib64/libscvePanorama_lite.so
 vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
+
+# Fingerprint
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc
+vendor/etc/init/init.ets.rc
+vendor/lib64/vendor.egistec.hardware.fingerprint@2.0.so
+vendor/lib64/libets_fp_et5.so
+vendor/lib64/libets_teeclient.so
 
 # FM
 lib/fm_helium.so
@@ -688,6 +720,9 @@ vendor/lib64/libOmxWmaDec.so
 product/etc/permissions/com.motorola.moto-uirefresh.xml
 product/etc/permissions/com.motorola.motodisplay.xml
 product/etc/permissions/com.motorola.camera2.denali.xml:vendor/etc/permissions/com.motorola.camera2.denali.xml
+
+# NFC
+vendor/lib64/libpn553_fw.so
 
 # Offmode charging
 vendor/bin/charge_only_mode
@@ -1054,6 +1089,10 @@ vendor/lib64/libsensor1.so
 vendor/lib64/sensor_calibrate.so
 vendor/lib64/sensors.rp.so
 vendor/lib64/sensors.ssc.so
+
+# Sound Firmwares
+vendor/firmware/tfa98xx.cnt
+vendor/firmware/mono.cnt
 
 # Thermal
 vendor/bin/thermal-engine
